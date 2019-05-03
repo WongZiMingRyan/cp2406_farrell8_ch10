@@ -2,7 +2,7 @@ package Qn3;
 
 import java.util.Scanner;
 
-public class PetSold {
+public class PetSold extends ItemSold{
     boolean vaccinated, neutered, housebroken;
     Scanner scan = new Scanner(System.in);
 
