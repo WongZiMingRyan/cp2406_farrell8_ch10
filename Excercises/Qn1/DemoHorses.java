@@ -3,7 +3,7 @@ package Qn1;
 import javax.swing.*;
 
 public class DemoHorses {
-    public void main(String[] args){
+    public static void main(String[] args){
         Horse FancyHorse = new Horse();
         RaceHorse SpeedyHorse = new RaceHorse();
 

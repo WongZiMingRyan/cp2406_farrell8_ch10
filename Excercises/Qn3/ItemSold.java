@@ -19,7 +19,7 @@ public class ItemSold {
     }
     public void setDescription() {
         System.out.println("Describe the item: ");
-        description = scan.next();
+        description = scan.nextLine();
     }
 
     public int getPrice() {
